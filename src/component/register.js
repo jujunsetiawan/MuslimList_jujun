@@ -15,6 +15,12 @@ export class Register extends Component {
         return (
             <View>
                 <View>
+                <TouchableOpacity onPress = {() => this.props.navigation.navigate("Login")}>
+                <Image
+                    source = {require("../assets/back.png")}
+                    style = {{height: 30, width:30, marginTop:10, marginLeft:15, opacity: 0.4}}
+                />
+                </TouchableOpacity>
                     <Text style={style.text8}>Register</Text>
                     <View style={{ flexDirection: "row" }}>
                         <Text style={{ opacity: 0.3, marginLeft: 20, marginTop: 10, marginRight: 1 }}>Already have an account ? </Text>
@@ -91,7 +97,7 @@ export class Register extends Component {
                                 <Text style={{ color: "white", marginLeft: 8 }}>Google</Text>
                             </TouchableOpacity>
                         </View>
-                        <Text style={{ opacity: 0.3, textAlign: "center", marginTop: 10 }}>By clicking sign up you are agreeing to the</Text>
+                        <Text style={{ opacity: 0.3, textAlign: "center", marginTop: 15 }}>By clicking sign up you are agreeing to the</Text>
                         <View style={style.view16}>
                             <TouchableOpacity>
                                 <Text style={{ color: "dodgerblue", fontWeight: "bold" }}>Term of use </Text>

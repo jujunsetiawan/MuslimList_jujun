@@ -139,6 +139,45 @@ const style = StyleSheet.create({
         flexDirection: "row",
         marginTop: 40,
     },
+    view18: {
+        backgroundColor: "white",
+        height: 40,
+        width: 330,
+        marginLeft: 15,
+        borderRadius: 5,
+        flexDirection: "row",
+        marginTop: 15,
+    },
+    view19: {
+        backgroundColor: "green",
+        height: 60,
+        width: 60,
+        borderRadius: 30,
+        justifyContent: "center",
+        alignItems: "center",
+        position: "absolute",
+        bottom: 20,
+        right: 20,
+        opacity: 0.8
+    },
+    view20: {
+        flexDirection: "row",
+        justifyContent: "space-around",
+        marginHorizontal: 30,
+        marginTop: 15
+    },
+    view21: {
+        backgroundColor: "white",
+        height: 35,
+        width: 80,
+        borderRadius: 10,
+        justifyContent: "center",
+        alignItems: "center",
+        position: "absolute",
+        bottom: 10,
+        right: 10,
+        opacity: 0.8
+    },
     image1: {
         height: 150,
         width: 150
@@ -155,6 +194,13 @@ const style = StyleSheet.create({
     image4: {
         height: 15,
         width: 15,
+    },
+    image5: {
+        height: 90,
+        width: 90,
+        borderRadius: 45,
+        alignSelf: "center",
+        marginTop: 30
     },
     text1: {
         color: "#f1f1f1",
@@ -196,13 +242,13 @@ const style = StyleSheet.create({
     text8: {
         fontSize: 30,
         fontWeight: "bold",
-        marginTop: 50,
+        marginTop: 15,
         marginLeft: 20
     },
     text9: {
         marginBottom: 5,
         marginLeft: 20,
-        marginTop: 40
+        marginTop: 35
     },
     text10: {
         marginBottom: 5,
@@ -214,6 +260,27 @@ const style = StyleSheet.create({
         fontWeight: "bold",
         marginLeft: 15,
         marginTop: 20
+    },
+    text12: {
+        color: "white",
+        fontWeight: "bold",
+        fontSize: 60,
+        marginBottom: 4,
+    },
+    text13: {
+        color: "white",
+        fontSize: 20,
+        fontWeight: "bold",
+        textAlign: "center",
+        marginTop: 5
+    },
+    text14: {
+        fontWeight: "bold",
+        fontSize: 15,
+        marginBottom: 4,
+    },
+    text15: {
+
     },
     textinput: {
         borderColor: "white",
